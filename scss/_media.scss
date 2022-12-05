@@ -1,0 +1,208 @@
+@media(max-width:1024px){
+
+  .container,
+  .container-mid{
+    padding: 0 1rem;
+  }
+
+}
+@media(max-width:768px){
+
+  .clipboard-header{
+   
+    padding-top: 2rem;
+
+    img{
+      width: 7%;
+    }
+    h1{
+      font-size: 1.5rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  .download-btn{
+    .btn{
+      font-size: 0.8rem;
+    }
+  }
+
+  .track-snippets{
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+
+  .mid-features{
+    gap: 0;
+    margin: 1rem 0;
+  }
+  .mid-feat-side{
+    h3{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+
+  .access-content{
+    align-items: center;
+    margin: 1.5rem 0;
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+    img{
+      width: 60%;
+      margin-top: 1rem;
+    }
+  }
+
+  .supercharge-content{
+    margin: 1rem 0;
+
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  .supercharge-grid{
+    gap: 1rem;
+    margin: 1rem 0;
+
+  }
+  .supercharge-card{
+
+    img{
+      height: 15% ;
+    }
+    h3{
+      font-size: 0.8rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  
+  .sponsors-logo{
+    gap: 0;
+    img{
+      width: 10%;
+    }
+  }
+
+  .available-content{
+    margin: 1rem 0;
+
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  footer{
+    margin-top: 3rem;
+  }
+  .footer-content{
+    a{
+      font-size: 0.8rem;
+    }
+  }
+}
+@media (max-width: 428px){
+  
+  .clipboard-header{
+    img{
+      width: 15%;
+    }
+  }
+
+  .download-btn{
+    flex-direction: column;
+  }
+  .track-snippets{
+    margin: 1.5rem 0;
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+
+  .mid-features{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .mid-feat-side{
+    gap: 1rem ;
+    margin: 1rem 0;
+  }
+
+  .supercharge-content{
+    margin: 1rem 0;
+
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  .supercharge-grid{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+
+  }
+  .supercharge-card{
+
+    img{
+      height: 20% ;
+    }
+    h3{
+      font-size: 0.8rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  
+  .sponsors-logo{
+    flex-direction: column;
+    gap: 2rem;
+    img{
+      width: 20%;
+    }
+  }
+
+
+  footer{
+    margin-top: 2rem;
+  }
+  .footer-content{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    img{
+      width: 10%;
+      margin: 1rem auto;
+    }
+  }
+  .social-links{
+    justify-content: center;
+  }
+}
